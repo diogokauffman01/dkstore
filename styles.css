@@ -1,0 +1,33 @@
+/* Estilo para o cabeçalho preto */
+header {
+    background-color: #000;
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+    height: 180px; /* Altura do cabeçalho */
+    display: flex; /* Ativa o modelo de layout flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do cabeçalho */
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o logo no cabeçalho */
+.logo {
+    max-width: 300px; /* Tamanho máximo do logo no cabeçalho */
+    margin-top: 5px; /* Margem superior para afastar a logo um pouco para baixo */
+}
+
+/* Estilo para os logotipos de contato */
+.logo-contato {
+    max-width: 60px; /* Tamanho máximo dos logotipos de contato */
+}
+
+/* Estilo para os logotipos das redes sociais */
+.logo-social {
+    width: 40px; /* Tamanho dos logotipos das redes sociais */
+    margin: 0 5px; /* Margem entre os logotipos das redes sociais */
+}
+
